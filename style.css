@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+html {
+    min-height: 100%;
+    background: black;
+}
+body {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #7994a5;
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    list-style-type: none;
+    padding: 0 0 20px 0;
+}
+p {
+    font-size: 16px;
+    padding: 0 0 10px;
+}
+.container {
+    height: 100%;
+    width: auto;
+    background-image: url(img/bg.gif);
+    background-size: 1200px;
+    background-position: 200px;
+    background-attachment: scroll;
+}
+.pg-topleft {
+    width: 180px;
+    height: 100%;
+    background-color: #7bb6db;
+    border: 1px inset #7994a5;
+    padding: 10px;
+    text-align: center;
+}
+.pg-content {
+    height: 100%;
+    width: auto;
+}
+.pg-header {
+    background-color: #7bb6db;
+    border: 1px inset #7994a5;
+    text-align: center;
+}
+.pg-subheader {
+    background-color: #7bb6db;
+    border: 1px inset #7994a5;
+    text-align: center;
+    padding: 30px;
+}
+.pg-body {
+    border: 1px inset #7994a5;
+    background-color: #cae7f8;
+    padding: 0 40px;
+    text-align: left;
+}
+.pg-footer {
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #7bb6db;
+    border: 1px inset #7994a5;
+    vertical-align: middle;
+}
+.button {
+    font-family: 'Arial', Courier, monospace;
+    font-size: 18px;
+    color: white;
+    border: 4px outset #9dc5df;
+    background-color: #2c8fcc;
+    padding: 14px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.button:active {
+    border: 4px inset #9dc5df;
+    background-color: #2c8fcc;
+}
+.button:hover {
+    text-decoration: underline;
+}
+.h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 20px 0;
+}
+.h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    margin: 10px 0;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+}
+.img {
+    width: 400px;
+    height: auto;
+    padding: 10px 0 0;
+}
+.img-caption {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    padding: 0 0 10px;
+}
