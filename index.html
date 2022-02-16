@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kio's Super Cool Portfolio Site</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            background: transparent;
+        }
+        html {
+            min-height: 100%;
+            background: black;
+        }
+        body {
+            height: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #7994a5;
+            font-family: 'Roboto', sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0 0 20px 0;
+        }
+        p {
+            font-size: 16px;
+            padding: 0 0 10px;
+        }
+        .container {
+            height: 100%;
+            width: auto;
+            background-image: url(img/bg.gif);
+            background-size: 1200px;
+            background-position: 200px;
+            background-attachment: scroll;
+        }
+        .pg-topleft {
+            width: 180px;
+            height: 100%;
+            background-color: #7bb6db;
+            border: 1px inset #7994a5;
+            padding: 10px;
+            text-align: center;
+        }
+        .pg-content {
+            height: 100%;
+            width: auto;
+        }
+        .pg-header {
+            background-color: #7bb6db;
+            border: 1px inset #7994a5;
+            text-align: center;
+        }
+        .pg-subheader {
+            background-color: #7bb6db;
+            border: 1px inset #7994a5;
+            text-align: center;
+            padding: 30px;
+        }
+        .pg-body {
+            border: 1px inset #7994a5;
+            background-color: #cae7f8;
+            padding: 0 40px;
+            text-align: left;
+        }
+        .pg-footer {
+            height: 20px;
+            padding: 10px;
+            text-align: center;
+            background-color: #7bb6db;
+            border: 1px inset #7994a5;
+            vertical-align: middle;
+        }
+        .button {
+            font-family: 'Arial', Courier, monospace;
+            font-size: 18px;
+            color: white;
+            border: 4px outset #9dc5df;
+            background-color: #2c8fcc;
+            padding: 14px;
+            margin: 0 10px;
+        }
+        .h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px;
+            font-weight: bold;
+            color: #ffffff;
+            margin: 20px 0;
+        }
+        .h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .h3 {
+            font-family: 'Arial', sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            margin: 10px 0;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            padding: 40px;
+        }
+        .img {
+            width: 400px;
+            height: auto;
+            padding: 10px 0 0;
+        }
+        .img-caption {
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            font-style: italic;
+            padding: 0 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="pg-topleft">
+            <img src="img/logo.png" class="logo" alt="Kio Logo"/>
+            <h3 class="h3">Links:</h3>
+            <ul>
+                <li>Index</li>
+                <li>Sitemap</li>
+                <li>Main Site</li>
+            </ul>
+        </div>
+        <div class="pg-content">
+            <div class="pg-header">
+                <h1 class="h1">Kio's Super Cool Portfolio Site</h1>
+            </div>
+            <div class="pg-subheader">
+                <a class="button" href="https://twitter.com/artbykio" target="_blank">Twitter</a>
+                <a class="button" href="https://mstdn.social/web/@kio" target="_blank">Mastodon</a>
+                <a class="button" href="https://discord.gg/kio" target="_blank">Discord</a>
+                <a class="button" href="https://keybase.io/kiosion/pgp_keys.asc?fingerprint=d1fdde24bb72bfefe045ece08a2c67e22184f162" target="_blank">PGP</a>
+            </div>
+            <div class="pg-body">
+                <h2 class="h2">About me</h2>
+                <p>Hi! I'm Kio, an artist, developer, CS student, and musician from Atlantic Canada. I enjoy random dev projects, creating abstract digital art, and creating downtempo music. You can get in touch with me via email at <a href="mailto:hi@kio.dev">hi@kio.dev</a> or check out my socials using the above buttons!</p>
+                <h2 class="h2">About this site</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error asperiores necessitatibus eos cumque, magnam ipsa tempore commodi voluptate sunt laudantium tenetur quam ut ab culpa aperiam dolore omnis temporibus dignissimos!</p>
+                <h2 class="h2">Projects</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eum ducimus fuga sit eveniet quam vitae corrupti, quo error sequi! Quo, molestias eum animi voluptatem alias eius consequuntur a officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non enim, consequuntur esse nesciunt quo deserunt atque illum magni debitis error sequi asperiores molestiae velit cumque totam. Sequi, saepe beatae. Eos.</p>
 
+                <img src="https://cdn.kio.dev/portfolio/infinitys-edge-ii.0.5x.jpg" class="img" alt="Infinity's Edge II"/>
+                <p class="img-caption">Infinity's Edge II</p>
+                
+                <img src="https://cdn.kio.dev/portfolio/hesitate.0.5x.jpg" class="img" alt="Hesitate"/>
+                <p class="img-caption">Hesitate</p>
+
+                <img src="https://cdn.kio.dev/portfolio/lilac.flow.I.0.5x.webp" class="img" alt="Lilac Flow I"/>
+                <p class="img-caption">Lilac Flow I</p>
+            </div>
+            <div class="pg-footer">
+                <p>Copyright &copy; 2022 Kiosion</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
